@@ -1,0 +1,741 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.sub_para {
+  line-height: 1.5rem;
+}
+body {
+  background-color: #091627;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+.all_btn {
+  padding: 0.65rem 1.75rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 38px;
+  border: 1px solid #fff;
+  transition: 1s all;
+}
+.all_btn:hover {
+  background-color: #fab265;
+}
+
+/* TODO: HEADER SECTION START */
+#header {
+  width: 100%;
+}
+.header_sec {
+  width: 85%;
+  margin: auto;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.9375rem;
+}
+.nav_btn {
+  display: flex;
+  align-items: center;
+}
+.nav_btn a {
+  margin-left: 1.25rem;
+}
+.nav_btn a:nth-last-of-type(3){
+  margin-left: 0;
+  color: #fff;
+  text-decoration: none;
+}
+.nav_btn img {
+  margin-right: 0.6rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.hero_contant,
+.hero_img {
+  width: 50%;
+}
+.hero_contant {
+  margin-top: 20px;
+}
+.hero_contant h1 {
+  font-size: 4rem;
+}
+.hero_contant p {
+  width: 90%;
+  margin: 30px 0 50px 0;
+  color: #8f8da7;
+}
+.hero_bg_img {
+  width: 50%;
+  height: 200px;
+  background-image: url(assets/Durabet.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 40%;
+}
+.hero_img_container {
+  margin-top: 124px;
+  position: relative;
+}
+.hero_img1 {
+  width: 491px;
+  height: 368px;
+}
+.hero_img1 img {
+  width: 100%;
+  height: 100%;
+}
+.hero_img2 {
+  width: 414px;
+  height: 227px;
+  position: absolute;
+  top: 64%;
+  left: 42%;
+}
+.hero_img2 img {
+  width: 100%;
+  height: 100%;
+}
+/* TODO: HEADER SECTION END */
+/* TODO: CARD SECTION START */
+#card_container {
+  width: 100%;
+  margin-top: 7.3125rem;
+  position: relative;
+}
+.card_bg_img {
+  width: 38%;
+  height: 80px;
+  background-image: url(assets/Casinos.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: -30px;
+}
+.card_sec {
+  width: 85%;
+  margin: auto;
+}
+.card_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_head a {
+  white-space: nowrap;
+}
+.card_head h2 {
+  font-size: 2.625rem;
+}
+.card_box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 124px;
+  height: 113px;
+  background-color: #162232;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s all;
+  margin-top: 3.6rem;
+  color: #8f8f8f;
+}
+.card:hover {
+  background-color: #fab265;
+  color: #fff;
+  cursor: pointer;
+}
+.card_img {
+  width: 48px;
+  height: 42px;
+  background-image: url(assets/icon.png);
+  background-size: 100% 100%;
+  margin-top: 1.5rem;
+}
+.card_img:hover {
+  background-image: url(assets/icon_hover.png);
+}
+
+.card_contant p {
+  margin: 0.9rem 0;
+}      
+.card_img2 img {
+  margin-top: 1.5rem;
+}
+.card_lst {
+  min-width: 200px;
+  flex: 1;
+}
+.card_lst h2 {
+  font-size: 2.3rem;
+  justify-content: flex-start;
+}
+/* TODO: GAME SECTION START */
+.game {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 3.125rem;
+  margin-bottom: 50px;
+  overflow-x: auto;
+}
+.game::-webkit-scrollbar {
+  width: 0;
+}
+.game_img {
+  min-width: 270px;
+  height: 370px;
+  flex-shrink: 0;
+  position: relative;
+}
+.game_img img {
+  width: 100%;
+  height: 100%;
+}
+.game_img a {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 30%;
+  opacity: 0;
+}
+.game_img a:hover {
+  opacity: 1;
+}
+.game_img img:hover {
+  filter: blur(2px);
+}
+/* TODO: GAME SECTION END */
+
+/* TODO: CARD SECTION END */
+
+/* TODO: SECOND CARD SECTION START */
+#second_card_container {
+  width: 100%;
+  position: relative;
+}
+.second_card_bg_img {
+  width: 30%;
+  height: 100px;
+  background-image: url(assets/Sports.png);
+  background-size: 100% 100%;
+  top: -19px;
+  position: absolute;
+}
+.second_card_sec {
+  width: 85%;
+  margin: auto;
+}
+.second_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 50px;
+}
+.second_card_img1 {
+  width: 180px;
+  height: 160px;
+  margin-top: 1.3rem;
+}
+.second_card1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.second_card {
+  width: 180px;
+  height: 160px;
+  background-color: #162232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  border-radius: 10px;
+  color: #8f8f8f;
+  transition: all 1s;
+}
+.second_card:hover {
+  background-color: #fab265;
+  color: #fff;
+}
+.second_card_img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1.9rem;
+}
+
+.second_card_img img {
+  width: 100%;
+  height: 100%;
+}
+/* TODO: SECOND CARD SECTION END */
+/* TODO: GAMES SECTION START */
+
+#games {
+  width: 100%;
+  margin-top: 3.8rem;
+}
+.games_sec {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.heading {
+  text-align: center;
+  font-size: 3rem;
+}
+.games_bg {
+  width: 46%;
+  height: 100px;
+  background-image: url(assets/Games.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 27%;
+  top: -25px;
+}
+.games_first_contant {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 2.9rem;
+}
+/* TODO: GAMES SECTION END */
+/* TODO: TOP WIN SECTION START */
+#top_win {
+  width: 100%;
+  margin-top: 8rem;
+}
+.top_win_sec {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+.top_win_bg {
+  width: 46%;
+  height: 100px;
+  background-image: url(assets/Winners.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: -34px;
+  left: 27%;
+}
+.win_heading{
+ margin-bottom: 3.125rem;
+}
+
+.win_cards{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.win_card{
+  width: 370px;
+  height: 149px;
+  background-color: #162232;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  line-height: 2rem;
+  cursor: pointer;
+  transition: all 1s;
+
+}
+.win_card:hover{
+  background-color: #fab265;
+  color: #fff;
+}
+.card_contant1{
+  font-size: 0.8125rem;
+  color: #B1B1B1;;
+}
+.card_contant1{
+  color: #fff;
+}
+.card_contant2{
+ text-align: end;
+}
+.card_contant2 p:nth-last-of-type(1){
+  font-size: 0.8125rem;
+}
+.card_contant2 h2{
+  color: #fab265;
+}
+.card_contant2 h2:hover{
+  color: #000;
+}
+.card_win_img{
+  width: 100px;
+  height: 119px;
+}
+.card_win_img img {
+  width: 100%;
+  height: 100%;
+}
+/* TODO: PAY CAED SECTION START */
+.card_pay_container{
+  margin-top: 6.25rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card_pay{
+  width: 572px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+  border: 1px solid #162232;
+}
+.card_pay_img1 img{
+  width: 452px;
+  height: 294px;
+}
+.card_pay_img1 img{
+  width: 100%;
+  height: 100%;
+}
+.card_pay_img2{
+  width: 183px;
+  height: 71px;
+}
+.card_pay_img2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card_pay2{
+  width: 572px;
+  height: 300px;
+ display: flex;
+ flex-grow: 1;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid #162232;
+}
+.card_pay2 h2{
+  font-size: 2.1875rem;
+  margin-bottom: 2.125rem;
+}
+.card_pay_img_contaier{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.pay_img_box {
+  width: 115px;
+  height: 75px;
+  flex-grow: 1;
+}
+.pay_img_box img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+.pay_img_box img:hover , .pay_img_box:last-child:hover{
+  transform: scale(1.1);
+}
+.pay_img_box:last-child{
+  background-color: #b5d9ff;
+  border-radius: 5px;
+  transition: all 1s;
+}
+/* TODO: PAY CAED SECTION END */
+
+/* TODO: TOP WIN SECTION END */
+
+/* TODO: FOOTER SECTION START */
+.footer_para{
+  color: #cbcee3;
+}
+
+#footer{
+  width: 100%;
+  margin-top: 6.25rem;
+  background-color: #0b213e;
+}
+.footer_sec{
+  width: 85%;
+  margin: auto;
+  padding-top: 4.25rem;
+}
+
+.footer_one{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer_para_margin{
+  margin-top: 1.6875rem;
+}
+.footer_one h2{
+ color: #fab265; 
+}
+.Support{
+  font-size: 2rem;
+  color: #fab265;
+  font-weight: 700;
+  background-color: #06234a;
+  padding: 15px;
+  border-radius: 10px;
+}
+.img_maring_left{
+margin-left: 1.25rem;
+}
+
+.footer_two{
+  border-top: 1px solid #3e5676;
+  padding-top: 3rem;
+  margin-top: 3rem;
+}
+
+.footer_icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer_icon{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer_lst_contant p {
+  line-height: 1.3rem;
+  font-size: 12px;
+  text-align: center;
+
+}
+.footer_lst_contant p:last-child{
+  margin-top: 1.8rem;
+}
+.lst_p{
+  text-align: center;
+  padding: 1.8rem 0;
+}
+/* FOOTER SECTION END */
+
+@media (max-width: 992px) {
+  html {
+    font-size: 90%;
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+  .hero_contant,
+  .hero_img {
+    width: 100%;
+    height: auto;
+  }
+  .hero_img2 {
+    position: static;
+  }
+  .hero_img1,
+  .hero_img2 {
+    width: 100%;
+  }
+  .card {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .container{
+    left: 0;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+#loding {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  background: #000 url(assets/loading.gif) no-repeat center center;
+  background-size: 30%;
+}
+iframe {
+  display: none;
+}
+
+/* FORM SECTION START */
+/* From Uiverse.io by shadyeljokers */ 
+
+
+.container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 20%;
+  right: 35%;
+  opacity: 0;
+}
+.container span {
+  position: absolute;
+  left: 0;
+  width: 32px;
+  height: 6px;
+  background: #2c4766;
+  border-radius: 80px;
+  transform-origin: 200px;
+  transform: rotate(calc(var(--i) * (360deg / 50)));
+  animation: blink 3s linear infinite;
+  animation-delay: calc(var(--i) * (3s / 50));
+}
+
+@keyframes blink {
+  0% {
+    background: #0ef;
+  }
+  25% {
+    background: #2c4766;
+  }
+}
+
+.login-box {
+  position: absolute;
+  width: 80%;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+form {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.login-box h2 {
+  font-size: 1.8em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  position: relative;
+  margin: 15px 0;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: 2px solid #2c4766;
+  outline: none;
+  border-radius: 40px;
+  font-size: 1em;
+  color: #fff;
+  padding: 0 15px;
+  transition: 0.5s ease;
+}
+
+input:focus {
+  border-color: #fab265;
+}
+
+input[value]:not([value=""]) ~ label,
+input:focus ~ label {
+  top: -10px;
+  font-size: 0.8em;
+  background: #1f293a;
+  padding: 0 6px;
+  color: #fab265;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s ease;
+  color: #fff;
+}
+
+.forgot-pass {
+  margin: -10px 0 10px;
+  text-align: center;
+}
+
+.forgot-pass a {
+  font-size: 0.85em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  height: 45px;
+  background-color: #06234a;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 600;
+  transition: all 1s;
+}
+.btn:hover{
+  background-color: #fab265;
+}
+
+.signup-link {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.signup-link a {
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+/* FORM SECTION END */
