@@ -279,15 +279,42 @@ body {
   background-color: #fab265;
   color: #fff;
 }
-.second_card_img {
+
+.second_card_img{
   width: 50px;
   height: 50px;
+  background-size: 100% 100%;
   margin-bottom: 1.9rem;
 }
-
-.second_card_img img {
-  width: 100%;
-  height: 100%;
+.second_card_img2{
+  background-image: url(assets/second\ 2.png);
+}
+.second_card:hover .second_card_img2{
+  background-image: url(assets/second\ 2\ hover.png);
+}
+.second_card_img3{
+  background-image: url(assets/second\ 6.png);
+}
+.second_card:hover .second_card_img3{
+  background-image: url(assets/second\ 6\ hover.png);
+}
+.second_card_img4{
+  background-image: url(assets/second\ 3.png);
+}
+.second_card:hover .second_card_img4{
+  background-image: url(assets/second\ 3\ hover.png);
+}
+.second_card_img5{
+  background-image: url(assets/second\ 4.png);
+}
+.second_card:hover .second_card_img5{
+  background-image: url(assets/second\ 4\ \ hover.png);
+}
+.second_card_img5{
+  background-image: url(assets/second\ 5.png);
+}
+.second_card:hover .second_card_img5{
+  background-image: url(assets/second\ 5\ hover.png);
 }
 /* TODO: SECOND CARD SECTION END */
 /* TODO: GAMES SECTION START */
