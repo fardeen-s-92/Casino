@@ -142,6 +142,8 @@ body {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 3.6rem;
+
 }
 .card {
   width: 124px;
@@ -153,7 +155,6 @@ body {
   justify-content: center;
   align-items: center;
   transition: 1s all;
-  margin-top: 3.6rem;
   color: #8f8f8f;
 }
 .card:hover {
@@ -161,15 +162,15 @@ body {
   color: #fff;
   cursor: pointer;
 }
+.card:hover .card_img{
+  background-image: url(assets/icon_hover.png);
+}
 .card_img {
   width: 48px;
   height: 42px;
   background-image: url(assets/icon.png);
   background-size: 100% 100%;
   margin-top: 1.5rem;
-}
-.card_img:hover {
-  background-image: url(assets/icon_hover.png);
 }
 
 .card_contant p {
@@ -195,6 +196,7 @@ body {
   margin-bottom: 50px;
   overflow-x: auto;
 }
+
 .game::-webkit-scrollbar {
   width: 0;
 }
@@ -203,6 +205,12 @@ body {
   height: 370px;
   flex-shrink: 0;
   position: relative;
+}
+.game_img:hover a {
+  opacity: 1;
+}
+.game_img:hover img{
+  filter: blur(2px);
 }
 .game_img img {
   width: 100%;
@@ -214,12 +222,6 @@ body {
   top: 50%;
   left: 30%;
   opacity: 0;
-}
-.game_img a:hover {
-  opacity: 1;
-}
-.game_img img:hover {
-  filter: blur(2px);
 }
 /* TODO: GAME SECTION END */
 
@@ -247,8 +249,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
-  margin-top: 50px;
+  gap: 2.123rem;
+  margin-top: 3.123rem;
 }
 .second_card_img1 {
   width: 180px;
@@ -360,12 +362,14 @@ body {
   flex-grow: 1;
   line-height: 2rem;
   cursor: pointer;
-  transition: all 1s;
-
+  transition: 1s all;
 }
 .win_card:hover{
   background-color: #fab265;
   color: #fff;
+}
+.win_card:hover h2{
+  color: #000;
 }
 .card_contant1{
   font-size: 0.8125rem;
@@ -383,9 +387,7 @@ body {
 .card_contant2 h2{
   color: #fab265;
 }
-.card_contant2 h2:hover{
-  color: #000;
-}
+
 .card_win_img{
   width: 100px;
   height: 119px;
