@@ -46,7 +46,7 @@ body {
 .nav_btn a {
   margin-left: 1.25rem;
 }
-.nav_btn a:nth-last-of-type(3){
+.nav_btn a:nth-last-of-type(3) {
   margin-left: 0;
   color: #fff;
   text-decoration: none;
@@ -143,7 +143,6 @@ body {
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 3.6rem;
-
 }
 .card {
   width: 124px;
@@ -154,7 +153,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 1s  !important;
+  transition: all 1s !important;
   color: #8f8f8f;
 }
 .card:hover {
@@ -162,7 +161,7 @@ body {
   color: #fff;
   cursor: pointer;
 }
-.card:hover .card_img{
+.card:hover .card_img {
   background-image: url(assets/icon_hover.png);
 }
 .card_img {
@@ -172,19 +171,19 @@ body {
   background-size: 100% 100%;
   margin-top: 1.5rem;
 }
-.card_img2{
+.card_img2 {
   width: 42px;
   height: 50px;
   background-image: url(assets/icon2.png);
   background-size: 100% 100%;
   margin-top: 1.5rem;
 }
-.card:hover .card_img2{
+.card:hover .card_img2 {
   background-image: url(assets/iocon2\ hover.png);
 }
 .card_contant p {
   margin: 0.9rem 0;
-}      
+}
 .card_img2 img {
   margin-top: 1.5rem;
 }
@@ -218,7 +217,7 @@ body {
 .game_img:hover a {
   opacity: 1;
 }
-.game_img:hover img{
+.game_img:hover img {
   filter: blur(2px);
 }
 .game_img img {
@@ -289,40 +288,40 @@ body {
   color: #fff;
 }
 
-.second_card_img{
+.second_card_img {
   width: 50px;
   height: 50px;
   background-size: 100% 100%;
   margin-bottom: 1.9rem;
 }
-.second_card_img2{
+.second_card_img2 {
   background-image: url(assets/second\ 2.png);
 }
-.second_card:hover .second_card_img2{
+.second_card:hover .second_card_img2 {
   background-image: url(assets/second\ 2\ hover.png);
 }
-.second_card_img3{
+.second_card_img3 {
   background-image: url(assets/second\ 6.png);
 }
-.second_card:hover .second_card_img3{
+.second_card:hover .second_card_img3 {
   background-image: url(assets/second\ 6\ hover.png);
 }
-.second_card_img4{
+.second_card_img4 {
   background-image: url(assets/second\ 3.png);
 }
-.second_card:hover .second_card_img4{
+.second_card:hover .second_card_img4 {
   background-image: url(assets/second\ 3\ hover.png);
 }
-.second_card_img5{
+.second_card_img5 {
   background-image: url(assets/second\ 4.png);
 }
-.second_card:hover .second_card_img5{
+.second_card:hover .second_card_img5 {
   background-image: url(assets/second\ 4\ \ hover.png);
 }
-.second_card_img5{
+.second_card_img5 {
   background-image: url(assets/second\ 5.png);
 }
-.second_card:hover .second_card_img5{
+.second_card:hover .second_card_img5 {
   background-image: url(assets/second\ 5\ hover.png);
 }
 /* TODO: SECOND CARD SECTION END */
@@ -377,17 +376,17 @@ body {
   top: -34px;
   left: 27%;
 }
-.win_heading{
- margin-bottom: 3.125rem;
+.win_heading {
+  margin-bottom: 3.125rem;
 }
 
-.win_cards{
+.win_cards {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.win_card{
+.win_card {
   width: 370px;
   height: 149px;
   background-color: #162232;
@@ -400,31 +399,31 @@ body {
   cursor: pointer;
   transition: 1s all !important;
 }
-.win_card:hover{
+.win_card:hover {
   background-color: #fab265;
   color: #fff;
 }
-.win_card:hover h2{
+.win_card:hover h2 {
   color: #000;
 }
-.card_contant1{
+.card_contant1 {
   font-size: 0.8125rem;
-  color: #B1B1B1;;
+  color: #b1b1b1;
 }
-.card_contant1{
+.card_contant1 {
   color: #fff;
 }
-.card_contant2{
- text-align: end;
+.card_contant2 {
+  text-align: end;
 }
-.card_contant2 p:nth-last-of-type(1){
+.card_contant2 p:nth-last-of-type(1) {
   font-size: 0.8125rem;
 }
-.card_contant2 h2{
+.card_contant2 h2 {
   color: #fab265;
 }
 
-.card_win_img{
+.card_win_img {
   width: 100px;
   height: 119px;
 }
@@ -433,13 +432,13 @@ body {
   height: 100%;
 }
 /* TODO: PAY CAED SECTION START */
-.card_pay_container{
+.card_pay_container {
   margin-top: 6.25rem;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
-.card_pay{
+.card_pay {
   width: 572px;
   height: 300px;
   display: flex;
@@ -448,15 +447,15 @@ body {
   flex-grow: 1;
   border: 1px solid #162232;
 }
-.card_pay_img1 img{
+.card_pay_img1 img {
   width: 452px;
   height: 294px;
 }
-.card_pay_img1 img{
+.card_pay_img1 img {
   width: 100%;
   height: 100%;
 }
-.card_pay_img2{
+.card_pay_img2 {
   width: 183px;
   height: 71px;
 }
@@ -465,21 +464,21 @@ body {
   height: 100%;
 }
 
-.card_pay2{
+.card_pay2 {
   width: 572px;
   height: 300px;
- display: flex;
- flex-grow: 1;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- border: 1px solid #162232;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #162232;
 }
-.card_pay2 h2{
+.card_pay2 h2 {
   font-size: 2.1875rem;
   margin-bottom: 2.125rem;
 }
-.card_pay_img_contaier{
+.card_pay_img_contaier {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -495,10 +494,11 @@ body {
   height: 100%;
   transition: all 1s;
 }
-.pay_img_box img:hover , .pay_img_box:last-child:hover{
+.pay_img_box img:hover,
+.pay_img_box:last-child:hover {
   transform: scale(1.1);
 }
-.pay_img_box:last-child{
+.pay_img_box:last-child {
   background-color: #b5d9ff;
   border-radius: 5px;
   transition: all 1s;
@@ -508,35 +508,35 @@ body {
 /* TODO: TOP WIN SECTION END */
 
 /* TODO: FOOTER SECTION START */
-.footer_para{
+.footer_para {
   color: #cbcee3;
 }
 
-#footer{
+#footer {
   width: 100%;
   margin-top: 6.25rem;
   background-color: #0b213e;
 }
-.footer_sec{
+.footer_sec {
   width: 85%;
   margin: auto;
   padding-top: 4.25rem;
 }
 
-.footer_one{
+.footer_one {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
-.footer_para_margin{
+.footer_para_margin {
   margin-top: 1.6875rem;
 }
-.footer_one h2{
- color: #fab265; 
+.footer_one h2 {
+  color: #fab265;
 }
-.Support{
+.Support {
   font-size: 2rem;
   color: #fab265;
   font-weight: 700;
@@ -544,24 +544,24 @@ body {
   padding: 15px;
   border-radius: 10px;
 }
-.img_maring_left{
-margin-left: 1.25rem;
+.img_maring_left {
+  margin-left: 1.25rem;
 }
 
-.footer_two{
+.footer_two {
   border-top: 1px solid #3e5676;
   padding-top: 3rem;
   margin-top: 3rem;
 }
 
-.footer_icons{
+.footer_icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
-.footer_icon{
+.footer_icon {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -573,12 +573,11 @@ margin-left: 1.25rem;
   line-height: 1.3rem;
   font-size: 12px;
   text-align: center;
-
 }
-.footer_lst_contant p:last-child{
+.footer_lst_contant p:last-child {
   margin-top: 1.8rem;
 }
-.lst_p{
+.lst_p {
   text-align: center;
   padding: 1.8rem 0;
 }
@@ -612,7 +611,7 @@ margin-left: 1.25rem;
   html {
     font-size: 80%;
   }
-  .container{
+  .container {
     left: 0;
   }
 }
@@ -628,15 +627,14 @@ margin-left: 1.25rem;
   position: fixed;
   z-index: 1;
   background: #000 url(assets/loading.gif) no-repeat center center;
-  background-size: 30%;
+  background-size: 80%;
 }
 iframe {
   display: none;
 }
 
 /* FORM SECTION START */
-/* From Uiverse.io by shadyeljokers */ 
-
+/* From Uiverse.io by shadyeljokers */
 
 .container {
   width: 400px;
@@ -759,7 +757,7 @@ label {
   font-weight: 600;
   transition: all 1s;
 }
-.btn:hover{
+.btn:hover {
   background-color: #fab265;
 }
 
@@ -774,6 +772,5 @@ label {
   text-decoration: none;
   font-weight: 600;
 }
-
 
 /* FORM SECTION END */
